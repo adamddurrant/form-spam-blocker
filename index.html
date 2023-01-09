@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="block.js"></script>
+  <title>Reduce Spam with Regex</title>
+  <link rel="stylesheet" href="/styles.css"/>
+  <script src="spam.js"></script>
 </head>
 <body>
-  <form>
-    <textarea type="text" id="formMessage" maxlength="20" name="message"></textarea>
+ <div class="container">
+  <div class="spam">
+    <form>
+      <textarea type="text" id="formMessage" maxlength="200" name="message" placeholder="Any text written here is reviewed by a regex match..."/></textarea>
       <button id="submitButton">Submit</button>
-  </form> 
+    </form>
+  </div>
+</div>
 </body>
 </html>
